@@ -1,0 +1,32 @@
+# docker compose up --build   then open http://localhost:8000
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: fuel
+      POSTGRES_PASSWORD: fuel
+      POSTGRES_DB: fuel
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fuel"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  cache:
+    image: redis:7
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DJANGO_DEBUG: "0"
+      DJANGO_SECRET_KEY: change-me-outside-of-a-demo
+      DJANGO_ALLOWED_HOSTS: "*"
+      DATABASE_URL: postgres://fuel:fuel@db:5432/fuel
+      REDIS_URL: redis://cache:6379/1
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started

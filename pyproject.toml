@@ -13,6 +13,11 @@ dependencies = [
     "scipy>=1.18.1",
 ]
 
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2"]
+redis = ["redis>=5.0"]
+serve = ["gunicorn>=23.0", "whitenoise>=6.9"]
+
 [dependency-groups]
 dev = [
     "hypothesis>=6.168.3",

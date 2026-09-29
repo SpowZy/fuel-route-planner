@@ -1,0 +1,9 @@
+.git
+.venv
+.pytest_cache
+.ruff_cache
+.hypothesis
+__pycache__
+db.sqlite3
+data/raw
+staticfiles
