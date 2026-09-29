@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-from hypothesis import given, settings
+from hypothesis import example, given, settings
 from hypothesis import strategies as st
 
 from planner.baseline import baseline_cost
@@ -84,8 +84,11 @@ def test_infeasible_gap_is_reported():
 
 
 @settings(max_examples=300, deadline=None)
+@example(instance=(1001.0, [(0.625, 2.0, 0.0), (0.25, 2.0, 0.0), (1e-12, 2.0, 0.0)], 0.0, 0.0))
 @given(instances)
 def test_matches_the_linear_program_without_detours(instance):
+    # The example is a station a nanomile from an empty tank at the start, found by hypothesis:
+    # the LP solver accepts it within its tolerance, so the optimizer has to as well.
     total, miles, price, _, start, reserve = unpack(instance)
     no_detour = np.zeros_like(miles)
     expected = lp_cost(total, miles, price, no_detour, start_range=start, reserve=reserve)

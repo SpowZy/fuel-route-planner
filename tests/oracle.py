@@ -9,6 +9,8 @@ from itertools import combinations
 import numpy as np
 from scipy.optimize import linprog
 
+from planner.optimizer import EPS  # one tolerance for "reaches the end", in miles
+
 
 def lp_cost(
     total, miles, price, detour=None, *, range_miles=500.0, mpg=10.0, start_range=None, reserve=0.0
@@ -18,13 +20,13 @@ def lp_cost(
     Returns None when infeasible. Variables are miles of range bought at each station.
     """
     start = range_miles if start_range is None else min(start_range, range_miles)
+    if start >= total + reserve - EPS:
+        return 0.0
     order = np.argsort(miles, kind="stable")
     m = np.asarray(miles, dtype=float)[order]
     q = np.asarray(price, dtype=float)[order] / mpg
     d = np.zeros_like(m) if detour is None else np.asarray(detour, dtype=float)[order]
     n = len(m)
-    if start >= total + reserve:
-        return 0.0
     if n == 0:
         return None
     rows, limits = [], []

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import numpy as np
 
-EPS = 1e-9
+EPS = 1e-7  # miles, kept equal to planner.optimizer.EPS
 
 
 def baseline_cost(

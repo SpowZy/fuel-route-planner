@@ -38,7 +38,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-EPS = 1e-9
+EPS = 1e-7  # miles; same scale as the feasibility tolerance of the LP solver used in the tests
 
 
 class InfeasibleRoute(Exception):
