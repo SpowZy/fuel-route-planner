@@ -29,9 +29,21 @@ function initMap() {
   map.on("error", (event) => {
     if (!fellBack && event.error && /style|tiles\.openfreemap/i.test(String(event.error.message || event.error))) {
       fellBack = true;
-      map.setStyle(RASTER_FALLBACK);
+      map.setStyle(RASTER_FALLBACK); // a new style drops our layers: draw the trip again
+      onStyleReady(() => data && drawRoute(data));
     }
   });
+}
+
+// Run fn now if the style JSON is in (sources can be added while tiles are still loading),
+// otherwise try again every 250 ms for up to 10 s.
+function onStyleReady(fn, attempts = 40) {
+  try {
+    fn();
+  } catch (error) {
+    if (attempts <= 0 || !/style|loaded/i.test(String(error.message))) throw error;
+    setTimeout(() => onStyleReady(fn, attempts - 1), 250);
+  }
 }
 
 function drawRoute(payload) {
@@ -45,8 +57,9 @@ function drawRoute(payload) {
     const coords = payload.route.geometry.coordinates;
     const bounds = coords.reduce((b, c) => b.extend(c), new maplibregl.LngLatBounds(coords[0], coords[0]));
     map.fitBounds(bounds, { padding: { top: 60, bottom: 90, left: 60, right: 60 }, duration: 900 });
+    document.body.dataset.routeLayers = `${map.getLayer("route") ? "drawn" : "missing"}:${coords.length}`;
   };
-  if (map.isStyleLoaded()) apply(); else map.once("idle", apply);
+  onStyleReady(apply);
 }
 
 let markers = [];
@@ -89,7 +102,7 @@ function tankSeries(payload) {
 }
 
 function drawChart(payload) {
-  const W = 900, H = 200, pad = { l: 34, r: 10, t: 14, b: 22 };
+  const W = 900, H = 200, pad = { l: 34, r: 10, t: 26, b: 22 };
   const total = payload.route.distance_miles, cap = payload.vehicle.tank_gallons;
   const x = (mile) => pad.l + (mile / total) * (W - pad.l - pad.r);
   const y = (gal) => H - pad.b - (gal / cap) * (H - pad.t - pad.b);
@@ -128,7 +141,8 @@ function render(payload, clientMs) {
   const totals = payload.totals;
   $("#kpis").hidden = false;
   $("#details").hidden = false;
-  $("#hud").hidden = false;
+  map.resize(); // the details panel just took space from the map: fit the route to what is left
+  $("#hud").hidden = true; // shown while the replay runs
   $("#replay").hidden = false;
   $("#k-cost").textContent = money(totals.fuel_cost_usd);
   $("#k-stops").textContent = totals.stops;
@@ -137,7 +151,7 @@ function render(payload, clientMs) {
   const calls = payload.meta.external_calls;
   $("#k-calls").textContent = `${calls} (${payload.meta.routing.source})`;
   $("#status").className = "";
-  $("#status").textContent = `${payload.summary}. ${payload.route.distance_miles.toFixed(0)} mi, ${payload.route.duration_hours.toFixed(1)} h of driving.`;
+  $("#status").textContent = `${payload.summary}. ${payload.route.duration_hours.toFixed(1)} h of driving.`;
   $("#raw").textContent = JSON.stringify({ ...payload, map: { url: payload.map.url, geojson: "(FeatureCollection, omitted here)" }, route: { ...payload.route, geometry: "(LineString, omitted here)" } }, null, 2);
   drawRoute(payload);
   drawPins(payload);
@@ -187,6 +201,7 @@ function stopReplay() {
 function replay() {
   if (!data) return;
   stopReplay();
+  $("#hud").hidden = false;
   const coords = data.route.geometry.coordinates, total = data.route.distance_miles;
   const cum = cumulative(coords, total), series = tankSeries(data);
   const el = document.createElement("div");
@@ -241,7 +256,7 @@ function init() {
   if (query.get("start") && query.get("finish")) {
     $("#start").value = query.get("start");
     $("#finish").value = query.get("finish");
-    map.once("load", () => plan(query.get("start"), query.get("finish")));
+    plan(query.get("start"), query.get("finish")); // the map draws itself once its style is ready
   }
 }
 
