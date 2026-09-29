@@ -96,3 +96,13 @@ FUEL = {
     # it the cheapest plan stops whenever a station is a cent cheaper, and buys 1 gallon.
     "STOP_PENALTY_USD": 10.0,
 }
+
+ROUTING = {
+    "OSRM_URL": os.environ.get("OSRM_URL", "https://router.project-osrm.org"),
+    "VALHALLA_URL": os.environ.get("VALHALLA_URL", "https://valhalla1.openstreetmap.de"),
+    "TIMEOUT_SECONDS": 20,
+    "MIN_INTERVAL_SECONDS": 1.0,  # the public OSRM demo server asks for at most 1 request/s
+    "CACHE_SECONDS": 24 * 3600,
+    "USER_AGENT": "fuel-route-planner-assessment/0.1",
+    "SNAPSHOT_DIR": BASE_DIR / "data" / "route_snapshots",
+}
