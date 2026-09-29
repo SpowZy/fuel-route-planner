@@ -1,0 +1,41 @@
+[project]
+name = "fuel-route-planner"
+version = "0.1.0"
+description = "Django API that plans the cheapest fuel stops along a US driving route."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dj-database-url>=3.1.2",
+    "django>=6.1,<6.2",
+    "djangorestframework>=3.18.1",
+    "numpy>=2.5.3",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.168.3",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "pytest-django>=4.14.0",
+    "ruff>=0.16.9",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = ["live: hits the real routing service, skipped unless -m live"]
+
+[tool.coverage.run]
+source = ["planner", "stations", "routing", "api"]
+omit = ["*/migrations/*", "*/management/*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = ["data", "*/migrations/*"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "C4", "DJ"]
