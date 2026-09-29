@@ -1,0 +1,58 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        database: [sqlite, postgres]
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: fuel
+          POSTGRES_PASSWORD: fuel
+          POSTGRES_DB: fuel
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U fuel" --health-interval 5s
+          --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install uv
+      - run: uv sync --frozen --extra postgres
+      - name: Use PostgreSQL
+        if: matrix.database == 'postgres'
+        run: echo "DATABASE_URL=postgres://fuel:fuel@localhost:5432/fuel" >> "$GITHUB_ENV"
+      - name: Lint
+        if: matrix.database == 'sqlite'
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - run: uv run pytest --cov --cov-report=term-missing
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t fuel-route-planner .
+      - name: Start the container and call the health endpoint
+        run: |
+          docker run -d --name app -p 8000:8000 \
+            -e DJANGO_DEBUG=0 -e DJANGO_SECRET_KEY=ci -e DJANGO_ALLOWED_HOSTS='*' \
+            fuel-route-planner
+          for i in $(seq 1 60); do
+            if curl -fsS http://localhost:8000/api/v1/health/; then exit 0; fi
+            sleep 2
+          done
+          docker logs app
+          exit 1
