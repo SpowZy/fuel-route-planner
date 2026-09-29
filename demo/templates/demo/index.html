@@ -1,0 +1,68 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fuel route planner</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="{% static 'demo/app.css' %}">
+</head>
+<body>
+  <aside id="panel">
+    <div>
+      <h1>Fuel route planner</h1>
+      <p class="lede">Cheapest fuel stops along a US route. 500 mile tank, 10 mpg, prices from the station file.</p>
+    </div>
+
+    <div class="presets" id="presets"></div>
+
+    <form id="form" autocomplete="off">
+      <label>From <input id="start" name="start" value="New York, NY" spellcheck="false"></label>
+      <label>To <input id="finish" name="finish" value="Los Angeles, CA" spellcheck="false"></label>
+      <div class="row">
+        <button type="submit" class="primary">Plan trip</button>
+        <label class="check"><input type="checkbox" id="nocache"> Force a live routing call</label>
+      </div>
+    </form>
+
+    <div id="status" role="status"></div>
+
+    <div class="kpis" id="kpis" hidden>
+      <div class="kpi wide"><span id="k-cost">-</span><small>fuel cost at the pump</small></div>
+      <div class="kpi"><span id="k-stops">-</span><small>fuel stops</small></div>
+      <div class="kpi"><span id="k-saved">-</span><small>saved vs naive</small></div>
+      <div class="kpi"><span id="k-ms">-</span><small>response time</small></div>
+      <div class="kpi"><span id="k-calls">-</span><small>routing calls</small></div>
+    </div>
+
+    <button id="replay" class="ghost" hidden>Replay the trip</button>
+    <p class="foot">Station positions are city centroids: the price file has exits, not coordinates.</p>
+  </aside>
+
+  <section id="stage">
+    <div id="map"></div>
+    <div id="hud" hidden>
+      <div><small>tank</small><b id="hud-tank">-</b></div>
+      <div><small>miles</small><b id="hud-mile">-</b></div>
+      <div><small>spent</small><b id="hud-spent">-</b></div>
+    </div>
+  </section>
+
+  <section id="details" hidden>
+    <div class="chart-wrap">
+      <h2>Tank level along the route</h2>
+      <svg id="chart" viewBox="0 0 900 200" preserveAspectRatio="none"></svg>
+    </div>
+    <div class="table-wrap">
+      <table id="stops">
+        <thead><tr><th>#</th><th>Station</th><th>Mile</th><th>$/gal</th><th>Gallons</th><th>Cost</th><th>Decision</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <details><summary>Raw API response</summary><pre id="raw"></pre></details>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js"></script>
+  <script src="{% static 'demo/app.js' %}"></script>
+</body>
+</html>

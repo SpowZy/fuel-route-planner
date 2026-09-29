@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "stations",
     "api",
+    "demo",
 ]
 
 MIDDLEWARE = [
