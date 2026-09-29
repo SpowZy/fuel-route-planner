@@ -1,0 +1,1187 @@
+{
+"Abbotsford|BC": {
+"lat": 49.0521162,
+"lon": -122.329479,
+"name": "Abbotsford"
+},
+"Airdrie|AB": {
+"lat": 51.28597,
+"lon": -114.01062,
+"name": "Airdrie"
+},
+"Alvada|OH": {
+"lat": 41.0503322,
+"lon": -83.4018693,
+"name": "Alvada"
+},
+"Amite|LA": {
+"lat": 30.7265747,
+"lon": -90.5089815,
+"name": "Amite City"
+},
+"Antioch|TN": {
+"lat": 36.0600602,
+"lon": -86.6722192,
+"name": "Antioch"
+},
+"Athens|GA": {
+"lat": 33.9597677,
+"lon": -83.376398,
+"name": "Athens"
+},
+"Augusta|GA": {
+"lat": 33.4709714,
+"lon": -81.9748429,
+"name": "Augusta"
+},
+"Ayr|ON": {
+"lat": 43.2855122,
+"lon": -80.4507012,
+"name": "Ayr"
+},
+"Baker|FL": {
+"lat": 30.7972254,
+"lon": -86.681691,
+"name": "Baker"
+},
+"Balgonie|SK": {
+"lat": 50.4892758,
+"lon": -104.2669058,
+"name": "Balgonie"
+},
+"Batesburg|SC": {
+"lat": 33.9079201,
+"lon": -81.5473262,
+"name": "Batesburg"
+},
+"Belden|MS": {
+"lat": 34.3103831,
+"lon": -88.7883888,
+"name": "Belden"
+},
+"Belleville|ON": {
+"lat": 44.1633264,
+"lon": -77.3852556,
+"name": "Belleville"
+},
+"Bethany|LA": {
+"lat": 32.3737683,
+"lon": -94.0379649,
+"name": "Bethany"
+},
+"Blakeslee|PA": {
+"lat": 41.0925133,
+"lon": -75.5926681,
+"name": "Blakeslee"
+},
+"Bois D Arc|MO": {
+"lat": 37.2564382,
+"lon": -93.507696,
+"name": "Bois D'Arc"
+},
+"Boise|ID": {
+"lat": 43.6166163,
+"lon": -116.200886,
+"name": "Boise"
+},
+"Brampton|ON": {
+"lat": 43.685832,
+"lon": -79.7599366,
+"name": "Brampton"
+},
+"Brandon|MB": {
+"lat": 49.8511143,
+"lon": -99.9608924,
+"name": "Brandon"
+},
+"Brantford|ON": {
+"lat": 43.1408157,
+"lon": -80.2631733,
+"name": "Brantford"
+},
+"Breezewood|PA": {
+"lat": 39.9990119,
+"lon": -78.2404221,
+"name": "Breezewood"
+},
+"Bridgewater|MA": {
+"lat": 41.9902206,
+"lon": -70.9754432,
+"name": "Bridgewater"
+},
+"Brogue|PA": {
+"lat": 39.8723546,
+"lon": -76.4846387,
+"name": "Brogue"
+},
+"Brookpark|OH": null,
+"Brooks|AB": {
+"lat": 50.571027,
+"lon": -111.893005,
+"name": "Brooks"
+},
+"Burlington|ON": {
+"lat": 43.3248924,
+"lon": -79.7966835,
+"name": "Burlington"
+},
+"Calgary|AB": {
+"lat": 51.0456064,
+"lon": -114.057541,
+"name": "Calgary"
+},
+"Candler|NC": {
+"lat": 35.5444359,
+"lon": -82.6838032,
+"name": "Candler"
+},
+"Canton|MI": {
+"lat": 42.3076547,
+"lon": -83.4868961,
+"name": "Canton Township"
+},
+"Casa Blanca|NM": {
+"lat": 35.046318,
+"lon": -107.4713938,
+"name": "Casa Blanca"
+},
+"Castle Creek|NY": {
+"lat": 42.2275753,
+"lon": -75.918253,
+"name": "Castle Creek"
+},
+"Cedar Grove|TN": {
+"lat": 36.2517196,
+"lon": -86.5277724,
+"name": "Cedar Grove"
+},
+"Chappell Hill|TX": {
+"lat": 30.141529,
+"lon": -96.2567185,
+"name": "Chappell Hill"
+},
+"Chesterfield|VA": {
+"lat": 37.3777927,
+"lon": -77.5046698,
+"name": "Chesterfield"
+},
+"Chilliwack|BC": {
+"lat": 49.1709788,
+"lon": -121.95255,
+"name": "Chilliwack"
+},
+"Clear Brook|VA": {
+"lat": 39.2564912,
+"lon": -78.096111,
+"name": "Clear Brook"
+},
+"Clines Corners|NM": {
+"lat": 35.0094982,
+"lon": -105.66918,
+"name": "Clines Corners"
+},
+"Cochrane|ON": {
+"lat": 49.066668,
+"lon": -81.017303,
+"name": "Cochrane"
+},
+"Colgate|WI": {
+"lat": 43.1928301,
+"lon": -88.2067737,
+"name": "Colgate"
+},
+"Concord|ON": {
+"lat": 43.8003622,
+"lon": -79.4993876,
+"name": "Concord"
+},
+"Cookstown|ON": {
+"lat": 44.1897548,
+"lon": -79.7017017,
+"name": "Cookstown"
+},
+"Coquitlam|BC": {
+"lat": 49.2842958,
+"lon": -122.793281,
+"name": "Coquitlam"
+},
+"Cranbrook|BC": {
+"lat": 49.5107477,
+"lon": -115.7672772,
+"name": "Cranbrook"
+},
+"Creston|BC": {
+"lat": 49.0974046,
+"lon": -116.5130934,
+"name": "Creston"
+},
+"Cross Junction|VA": {
+"lat": 39.3203785,
+"lon": -78.2933382,
+"name": "Cross Junction"
+},
+"Curtis Bay|MD": {
+"lat": 39.2252188,
+"lon": -76.5900312,
+"name": "Curtis Bay"
+},
+"Cusseta|GA": {
+"lat": 32.3054268,
+"lon": -84.7727027,
+"name": "Cusseta"
+},
+"Dartmouth|NS": {
+"lat": 44.6799707,
+"lon": -63.5720232,
+"name": "Dartmouth"
+},
+"Davidson|SK": {
+"lat": 51.263985,
+"lon": -105.9874594,
+"name": "Davidson"
+},
+"Dawson Creek|BC": {
+"lat": 55.7605306,
+"lon": -120.2364453,
+"name": "Dawson Creek"
+},
+"De Forest|WI": null,
+"De Witt|IA": {
+"lat": 41.8242643,
+"lon": -90.538127,
+"name": "DeWitt"
+},
+"Delta|BC": {
+"lat": 49.0846258,
+"lon": -123.057938,
+"name": "Delta"
+},
+"Denmark|TN": {
+"lat": 35.5328546,
+"lon": -89.003952,
+"name": "Denmark"
+},
+"Dewey|AZ": {
+"lat": 34.5297551,
+"lon": -112.2421149,
+"name": "Dewey"
+},
+"Diamond|OH": {
+"lat": 41.0989463,
+"lon": -81.022871,
+"name": "Diamond"
+},
+"Doswell|VA": {
+"lat": 37.8601402,
+"lon": -77.4641492,
+"name": "Doswell"
+},
+"Drewryville|VA": {
+"lat": 36.7157055,
+"lon": -77.3063603,
+"name": "Drewryville"
+},
+"Drums|PA": {
+"lat": 41.018139,
+"lon": -75.9949252,
+"name": "Drums"
+},
+"Dryden|ON": {
+"lat": 49.785698,
+"lon": -92.835846,
+"name": "Dryden"
+},
+"Du Bois|PA": null,
+"Dugald|MB": {
+"lat": 49.8857175,
+"lon": -96.8428231,
+"name": "Dugald"
+},
+"Dumont|CO": {
+"lat": 39.7646887,
+"lon": -105.600337,
+"name": "Dumont"
+},
+"Eastaboga|AL": {
+"lat": 33.6059367,
+"lon": -86.0213587,
+"name": "Eastaboga"
+},
+"Edmonton|AB": {
+"lat": 53.5462055,
+"lon": -113.491241,
+"name": "Edmonton"
+},
+"Edson|AB": {
+"lat": 53.5858662,
+"lon": -116.442847,
+"name": "Edson"
+},
+"Edwards|IL": {
+"lat": 40.7458704,
+"lon": -89.7442697,
+"name": "Edwards"
+},
+"Elizabethport|NJ": {
+"lat": 40.6501031,
+"lon": -74.1870888,
+"name": "Elizabethport"
+},
+"Ellabell|GA": {
+"lat": 32.1235368,
+"lon": -81.4856673,
+"name": "Ellabell"
+},
+"Ellenwood|GA": {
+"lat": 33.6101096,
+"lon": -84.287978,
+"name": "Ellenwood"
+},
+"Etobicoke|ON": {
+"lat": 43.6435559,
+"lon": -79.5656326,
+"name": "Etobicoke"
+},
+"Etters|PA": null,
+"Fackler|AL": {
+"lat": 34.7925827,
+"lon": -85.9099775,
+"name": "Fackler"
+},
+"Feasterville Trevose|PA": {
+"lat": 40.1484058,
+"lon": -74.9934733,
+"name": "Feasterville-Trevose"
+},
+"Fort Erie|ON": {
+"lat": 42.91308,
+"lon": -78.918611,
+"name": "Fort Erie"
+},
+"Fort Mcmurray|AB": {
+"lat": 56.7291997,
+"lon": -111.3885221,
+"name": "Fort McMurray"
+},
+"Fort Nelson|BC": {
+"lat": 58.8048351,
+"lon": -122.7014595,
+"name": "Fort Nelson"
+},
+"Fort Saskatchewan|AB": {
+"lat": 53.7128571,
+"lon": -113.214894,
+"name": "Fort Saskatchewan"
+},
+"Fort St John|BC": {
+"lat": 56.2527571,
+"lon": -120.8472064,
+"name": "Fort St. John"
+},
+"Fortson|GA": {
+"lat": 33.3778914,
+"lon": -84.2888119,
+"name": "Fortson"
+},
+"Franksville|WI": {
+"lat": 42.7600188,
+"lon": -87.9134133,
+"name": "Franksville"
+},
+"Gansevoort|NY": {
+"lat": 43.1962051,
+"lon": -73.6513967,
+"name": "Gansevoort"
+},
+"Gladstone|VA": {
+"lat": 37.5468094,
+"lon": -78.8494619,
+"name": "Gladstone"
+},
+"Glendale|KY": {
+"lat": 37.6017278,
+"lon": -85.9055189,
+"name": "Glendale"
+},
+"Glenmont|NY": {
+"lat": 42.604802,
+"lon": -73.7695658,
+"name": "Glenmont"
+},
+"Gloucester|ON": {
+"lat": 45.3546314,
+"lon": -75.6017664,
+"name": "Gloucester-Southgate"
+},
+"Grande Prairie|AB": {
+"lat": 55.17108,
+"lon": -118.7949873,
+"name": "Grande Prairie"
+},
+"Grassy Butte|ND": {
+"lat": 47.3925145,
+"lon": -103.2479655,
+"name": "Grassy Butte"
+},
+"Greentown|PA": {
+"lat": 41.321755,
+"lon": -75.3054585,
+"name": "Greentown"
+},
+"Grovertown|IN": {
+"lat": 41.3750434,
+"lon": -86.5047339,
+"name": "Grovertown"
+},
+"Gum Spring|VA": {
+"lat": 37.7755262,
+"lon": -77.8968114,
+"name": "Gum Spring"
+},
+"Hamilton|ON": {
+"lat": 43.2560802,
+"lon": -79.8728583,
+"name": "Hamilton"
+},
+"Hamptonville|NC": {
+"lat": 36.0984684,
+"lon": -80.760345,
+"name": "Hamptonville"
+},
+"Hankamer|TX": {
+"lat": 29.8582755,
+"lon": -94.6268618,
+"name": "Hankamer"
+},
+"Hanna|AB": {
+"lat": 51.6445566,
+"lon": -111.927479,
+"name": "Hanna"
+},
+"Harpursville|NY": {
+"lat": 42.1784124,
+"lon": -75.6246298,
+"name": "Harpursville"
+},
+"Hartford|TN": {
+"lat": 35.8167646,
+"lon": -83.1432066,
+"name": "Hartford"
+},
+"Headingley|MB": {
+"lat": 49.868087,
+"lon": -97.391052,
+"name": "Rural Municipality of Headingley"
+},
+"Heiskell|TN": {
+"lat": 36.081816,
+"lon": -84.0539821,
+"name": "Heiskell"
+},
+"Henrico|VA": {
+"lat": 37.6294756,
+"lon": -77.5189032,
+"name": "Henrico"
+},
+"Hinton|AB": {
+"lat": 53.3990512,
+"lon": -117.5886772,
+"name": "Town of Hinton"
+},
+"Hogansburg|NY": {
+"lat": 44.9739364,
+"lon": -74.6632416,
+"name": "Hogansburg"
+},
+"Hope Hull|AL": {
+"lat": 32.2698632,
+"lon": -86.3571916,
+"name": "Hope Hull"
+},
+"Hope|BC": {
+"lat": 49.3799779,
+"lon": -121.4415851,
+"name": "Hope"
+},
+"Hornby|ON": {
+"lat": 43.5685294,
+"lon": -79.841421,
+"name": "Hornby"
+},
+"Hot Springs National Park|AR": null,
+"Hunt Valley|MD": {
+"lat": 39.4922608,
+"lon": -76.6589528,
+"name": "Hunt Valley"
+},
+"Hurricane Mills|TN": {
+"lat": 35.9711736,
+"lon": -87.781969,
+"name": "Hurricane Mills"
+},
+"Inglewood|ON": {
+"lat": 43.7964281,
+"lon": -79.9334822,
+"name": "Inglewood"
+},
+"Irvington|AL": {
+"lat": 30.5068623,
+"lon": -88.2338925,
+"name": "Irvington"
+},
+"Irving|NY": {
+"lat": 42.5675589,
+"lon": -79.1128169,
+"name": "Irving"
+},
+"Isom|KY": {
+"lat": 37.1878764,
+"lon": -82.8987718,
+"name": "Isom"
+},
+"Ivydale|WV": {
+"lat": 38.310097,
+"lon": -81.7045688,
+"name": "Ivydale"
+},
+"Jaffray|BC": {
+"lat": 49.3710945,
+"lon": -115.3010387,
+"name": "Jaffray"
+},
+"Jean|NV": {
+"lat": 35.7788568,
+"lon": -115.3243823,
+"name": "Jean"
+},
+"Joelton|TN": {
+"lat": 36.3131076,
+"lon": -86.8652772,
+"name": "Joelton"
+},
+"Johns Island|SC": {
+"lat": 32.69485,
+"lon": -80.03425,
+"name": "Johns Island"
+},
+"Kamloops|BC": {
+"lat": 50.6758269,
+"lon": -120.339415,
+"name": "Kamloops"
+},
+"Kapuskasing|ON": {
+"lat": 49.416667,
+"lon": -82.433333,
+"name": "Kapuskasing"
+},
+"Kearneysville|WV": {
+"lat": 39.3881556,
+"lon": -77.8855516,
+"name": "Kearneysville"
+},
+"Kingston|ON": {
+"lat": 44.230687,
+"lon": -76.481323,
+"name": "Kingston"
+},
+"Kitchener|ON": {
+"lat": 43.451291,
+"lon": -80.4927815,
+"name": "Kitchener"
+},
+"Kitwanga|BC": {
+"lat": 55.100373,
+"lon": -128.067627,
+"name": "Kitwanga"
+},
+"Knoxville|AL": {
+"lat": 33.5917715,
+"lon": -85.8971885,
+"name": "Knoxville"
+},
+"Kodak|TN": {
+"lat": 35.9745323,
+"lon": -83.6268396,
+"name": "Kodak"
+},
+"La Fayette|NY": null,
+"La Place|LA": null,
+"La Salle|IL": {
+"lat": 41.3333679,
+"lon": -89.0917497,
+"name": "LaSalle"
+},
+"Lake Ariel|PA": {
+"lat": 41.4539745,
+"lon": -75.382681,
+"name": "Lake Ariel"
+},
+"Lambsburg|VA": {
+"lat": 36.5854078,
+"lon": -80.7611817,
+"name": "Lambsburg"
+},
+"Lancaster|ON": {
+"lat": 45.1412662,
+"lon": -74.4999495,
+"name": "Lancaster"
+},
+"Lanexa|VA": {
+"lat": 37.4237573,
+"lon": -76.9010753,
+"name": "Lanexa"
+},
+"Larsen|WI": {
+"lat": 44.1916501,
+"lon": -88.623999,
+"name": "Larsen"
+},
+"Lawrence|MS": {
+"lat": 32.3251443,
+"lon": -89.2328394,
+"name": "Lawrence"
+},
+"Leesville|SC": {
+"lat": 33.916532,
+"lon": -81.5134368,
+"name": "Leesville"
+},
+"Lenorah|TX": {
+"lat": 32.30456,
+"lon": -101.8762483,
+"name": "Lenorah"
+},
+"Lethbridge|AB": {
+"lat": 49.6945782,
+"lon": -112.8331033,
+"name": "Lethbridge"
+},
+"Lexington|KY": {
+"lat": 38.0464066,
+"lon": -84.4970393,
+"name": "Lexington"
+},
+"Linwood|NC": {
+"lat": 35.7506938,
+"lon": -80.3178306,
+"name": "Linwood"
+},
+"Lloydminster|AB": {
+"lat": 53.279995,
+"lon": -110.00885,
+"name": "City of Lloydminster"
+},
+"London|ON": {
+"lat": 42.9836747,
+"lon": -81.2496068,
+"name": "London"
+},
+"Longs|SC": {
+"lat": 33.9385274,
+"lon": -78.7330522,
+"name": "Longs"
+},
+"MC DERMITT|NV": null,
+"Maxwell|TX": {
+"lat": 29.881897,
+"lon": -97.7956423,
+"name": "Maxwell"
+},
+"Mc Alpin|FL": null,
+"Mc Calla|AL": null,
+"Mc Crory|AR": null,
+"Mc Donald|TN": null,
+"Mc Graw|NY": null,
+"Mc Kees Rocks|PA": {
+"lat": 40.4656244,
+"lon": -80.0656106,
+"name": "McKees Rocks"
+},
+"Mc Leansville|NC": null,
+"Mc Lean|IL": null,
+"Medicine Hat|AB": {
+"lat": 50.04303,
+"lon": -110.679016,
+"name": "Medicine Hat"
+},
+"Middlebury Center|PA": {
+"lat": 41.8436841,
+"lon": -77.2744202,
+"name": "Middlebury Center"
+},
+"Middlesboro|KY": {
+"lat": 36.6072968,
+"lon": -83.7143317,
+"name": "Middlesboro"
+},
+"Middleton|MI": {
+"lat": 43.1833659,
+"lon": -84.7088895,
+"name": "Middleton"
+},
+"Midland|GA": {
+"lat": 32.5748608,
+"lon": -84.827152,
+"name": "Midland"
+},
+"Milldale|CT": {
+"lat": 41.5661372,
+"lon": -72.8999672,
+"name": "Milldale"
+},
+"Millersville|MD": {
+"lat": 39.0595542,
+"lon": -76.6480219,
+"name": "Millersville"
+},
+"Milltown|MT": {
+"lat": 46.8712952,
+"lon": -113.8817192,
+"name": "Milltown"
+},
+"Milton|ON": {
+"lat": 43.513671,
+"lon": -79.882817,
+"name": "Milton"
+},
+"Mineral Wells|WV": {
+"lat": 39.1904082,
+"lon": -81.5320773,
+"name": "Mineral Wells"
+},
+"Mississauga|ON": {
+"lat": 43.5884727,
+"lon": -79.643658,
+"name": "Mississauga"
+},
+"Moapa|NV": {
+"lat": 36.6673648,
+"lon": -114.584977,
+"name": "Moapa"
+},
+"Moncton|NB": null,
+"Monroeton|PA": {
+"lat": 41.7125751,
+"lon": -76.4746649,
+"name": "Monroeton"
+},
+"Moose Jaw|SK": {
+"lat": 50.3967209,
+"lon": -105.535666,
+"name": "Moose Jaw"
+},
+"Mount Nebo|WV": {
+"lat": 39.6023047,
+"lon": -79.7078303,
+"name": "Mount Nebo"
+},
+"Nanton|AB": {
+"lat": 50.3481989,
+"lon": -113.770256,
+"name": "Town of Nanton"
+},
+"Napanee|ON": {
+"lat": 44.2473883,
+"lon": -76.9505543,
+"name": "Greater Napanee"
+},
+"Nashville|TN": {
+"lat": 36.1622767,
+"lon": -86.7742984,
+"name": "Nashville"
+},
+"New Boston|MI": {
+"lat": 42.1625408,
+"lon": -83.4029885,
+"name": "New Boston"
+},
+"New Hampton|NY": {
+"lat": 41.4098658,
+"lon": -74.4117435,
+"name": "New Hampton"
+},
+"New Westminster|BC": {
+"lat": 49.2067726,
+"lon": -122.9108818,
+"name": "New Westminster"
+},
+"Newburg|MD": {
+"lat": 38.3773478,
+"lon": -76.9533055,
+"name": "Newburg"
+},
+"Newport|MI": {
+"lat": 42.0022672,
+"lon": -83.3085419,
+"name": "Newport"
+},
+"Newton Lower Falls|MA": {
+"lat": 42.3258005,
+"lon": -71.2563409,
+"name": "Newton Lower Falls"
+},
+"Nisku|AB": {
+"lat": 53.333333,
+"lon": -113.533333,
+"name": "Nisku"
+},
+"North Billerica|MA": {
+"lat": 42.5852621,
+"lon": -71.2877645,
+"name": "North Billerica"
+},
+"North Jackson|OH": {
+"lat": 41.1001272,
+"lon": -80.8571741,
+"name": "North Jackson"
+},
+"North Oxford|MA": {
+"lat": 42.1500947,
+"lon": -71.8684054,
+"name": "North Oxford"
+},
+"Nottingham|MD": {
+"lat": 39.3639964,
+"lon": -76.4521842,
+"name": "Nottingham"
+},
+"Oldcastle|ON": {
+"lat": 42.2263255,
+"lon": -82.9580049,
+"name": "Oldcastle"
+},
+"Orla|TX": {
+"lat": 31.8250149,
+"lon": -103.9090099,
+"name": "Orla"
+},
+"Orono|ON": {
+"lat": 43.975028,
+"lon": -78.616447,
+"name": "Orono"
+},
+"Ottawa Lake|MI": {
+"lat": 41.7641517,
+"lon": -83.7493869,
+"name": "Ottawa Lake"
+},
+"Pass Lake|ON": null,
+"Pecos|TX": {
+"lat": 31.4254143,
+"lon": -103.4952894,
+"name": "Pecos"
+},
+"Pendleton|KY": {
+"lat": 38.4622879,
+"lon": -85.3035678,
+"name": "Pendleton"
+},
+"Pickering|ON": {
+"lat": 43.835765,
+"lon": -79.090576,
+"name": "Pickering"
+},
+"Pioneer|TN": {
+"lat": 36.4175798,
+"lon": -84.3140995,
+"name": "Pioneer"
+},
+"Portage La Prairie|MB": {
+"lat": 49.972422,
+"lon": -98.289185,
+"name": "Portage la Prairie"
+},
+"Prairie Hill|TX": {
+"lat": 30.2488239,
+"lon": -96.3771874,
+"name": "Prairie Hill"
+},
+"Prince George|BC": {
+"lat": 53.9128645,
+"lon": -122.7453699,
+"name": "Prince George"
+},
+"Providence Forge|VA": {
+"lat": 37.4424264,
+"lon": -77.0439583,
+"name": "Providence Forge"
+},
+"Pryor|OK": {
+"lat": 36.3084275,
+"lon": -95.3169136,
+"name": "Pryor Creek"
+},
+"Pueblo Of Acoma|NM": null,
+"Quesnel|BC": {
+"lat": 52.9794279,
+"lon": -122.493627,
+"name": "Quesnel"
+},
+"Quinton|VA": {
+"lat": 37.5327893,
+"lon": -77.1154448,
+"name": "Quinton"
+},
+"Rabun Gap|GA": {
+"lat": 34.9572143,
+"lon": -83.3864536,
+"name": "Rabun Gap"
+},
+"Raphine|VA": {
+"lat": 37.9373548,
+"lon": -79.2328102,
+"name": "Raphine"
+},
+"Red Deer|AB": {
+"lat": 52.2690628,
+"lon": -113.8141464,
+"name": "City of Red Deer"
+},
+"Redford|MI": {
+"lat": 42.3833698,
+"lon": -83.2965971,
+"name": "Redford"
+},
+"Regina|SK": {
+"lat": 50.4479733,
+"lon": -104.6158764,
+"name": "Regina"
+},
+"Ridgedale|MO": {
+"lat": 36.5039535,
+"lon": -93.2237919,
+"name": "Ridgedale"
+},
+"Rising Fawn|GA": {
+"lat": 34.7600791,
+"lon": -85.531076,
+"name": "Rising Fawn"
+},
+"Roans Prairie|TX": {
+"lat": 30.5836549,
+"lon": -95.943324,
+"name": "Roans Prairie"
+},
+"Rockville|VA": {
+"lat": 37.7259779,
+"lon": -77.6783239,
+"name": "Rockville"
+},
+"Rosedale|VA": {
+"lat": 36.9592782,
+"lon": -81.9312351,
+"name": "Rosedale"
+},
+"Round O|SC": {
+"lat": 32.9371151,
+"lon": -80.5409352,
+"name": "Round O"
+},
+"Ruther Glen|VA": {
+"lat": 37.9408753,
+"lon": -77.4618647,
+"name": "Ruther Glen"
+},
+"S Coffeyville|OK": {
+"lat": 36.9945248,
+"lon": -95.6202552,
+"name": "South Coffeyville"
+},
+"Saint Croix|IN": {
+"lat": 38.2239531,
+"lon": -86.5863387,
+"name": "Saint Croix"
+},
+"Saint Johns|FL": null,
+"Saint-Liboire|QC": null,
+"Sarnia|ON": {
+"lat": 42.9743821,
+"lon": -82.403533,
+"name": "Sarnia"
+},
+"Saskatoon|SK": {
+"lat": 52.131802,
+"lon": -106.660767,
+"name": "Saskatoon"
+},
+"Sault Ste Marie|ON": {
+"lat": 46.5126554,
+"lon": -84.3330301,
+"name": "Sault Ste. Marie"
+},
+"Sawyer|MI": {
+"lat": 41.8853207,
+"lon": -86.5894666,
+"name": "Sawyer"
+},
+"Sherwood Park|AB": {
+"lat": 53.5256963,
+"lon": -113.296631,
+"name": "Sherwood Park"
+},
+"Skippers|VA": {
+"lat": 36.6118169,
+"lon": -77.5466463,
+"name": "Skippers"
+},
+"Smiths Creek|MI": {
+"lat": 42.9139187,
+"lon": -82.6038085,
+"name": "Smiths Creek"
+},
+"Ste Agathe|MB": {
+"lat": 49.5668153,
+"lon": -97.182039,
+"name": "Sainte Agathe"
+},
+"Sudbury|ON": {
+"lat": 46.49272,
+"lon": -80.991211,
+"name": "Greater Sudbury"
+},
+"Summerfield|FL": {
+"lat": 29.0085924,
+"lon": -82.0348092,
+"name": "Summerfield"
+},
+"Supply|NC": {
+"lat": 34.0176717,
+"lon": -78.267499,
+"name": "Supply"
+},
+"Tafton|PA": {
+"lat": 41.404534,
+"lon": -75.1829535,
+"name": "Tafton"
+},
+"Teays|WV": {
+"lat": 38.4417571,
+"lon": -81.9529125,
+"name": "Teays"
+},
+"Tilbury|ON": {
+"lat": 42.2593155,
+"lon": -82.4322682,
+"name": "Tilbury"
+},
+"Tinnie|NM": {
+"lat": 33.3705561,
+"lon": -105.2263673,
+"name": "Tinnie"
+},
+"Tollesboro|KY": {
+"lat": 38.5595201,
+"lon": -83.5760258,
+"name": "Tollesboro"
+},
+"Townsend|VA": {
+"lat": 37.1849815,
+"lon": -75.958473,
+"name": "Townsend"
+},
+"Townville|SC": {
+"lat": 34.5637137,
+"lon": -82.8984775,
+"name": "Townville"
+},
+"Troy|VA": {
+"lat": 37.9509737,
+"lon": -78.2463934,
+"name": "Troy"
+},
+"Valleyview|AB": {
+"lat": 55.066667,
+"lon": -117.283333,
+"name": "Town of Valleyview"
+},
+"Waddy|KY": {
+"lat": 38.1370153,
+"lon": -85.0743978,
+"name": "Waddy"
+},
+"Wall|TX": {
+"lat": 31.3743455,
+"lon": -100.30366,
+"name": "Wall"
+},
+"Waterfall|PA": {
+"lat": 40.1275826,
+"lon": -78.0627822,
+"name": "Waterfall"
+},
+"Watson Lake|YT": {
+"lat": 60.0624306,
+"lon": -128.7068037,
+"name": "Watson Lake"
+},
+"West Chesterfield|NH": {
+"lat": 42.9042482,
+"lon": -72.5156447,
+"name": "West Chesterfield"
+},
+"West Coxsackie|NY": {
+"lat": 42.3606399,
+"lon": -73.8167921,
+"name": "West Coxsackie"
+},
+"West Helena|AR": {
+"lat": 34.5440124,
+"lon": -90.6426195,
+"name": "West Helena"
+},
+"Westover|MD": {
+"lat": 38.1240114,
+"lon": -75.7063171,
+"name": "Westover"
+},
+"Whitecourt|AB": {
+"lat": 54.1424574,
+"lon": -115.6846504,
+"name": "Whitecourt"
+},
+"Whitehorse|YT": {
+"lat": 60.721571,
+"lon": -135.054932,
+"name": "Whitehorse"
+},
+"Willow Beach|AZ": {
+"lat": 35.8697801,
+"lon": -114.6600654,
+"name": "Willow Beach"
+},
+"Windsor|ON": {
+"lat": 42.3167397,
+"lon": -83.0373389,
+"name": "Windsor"
+},
+"Winnabow|NC": {
+"lat": 34.1493374,
+"lon": -78.0936046,
+"name": "Winnabow"
+},
+"Winnipeg|MB": {
+"lat": 49.8955367,
+"lon": -97.1384584,
+"name": "Winnipeg"
+},
+"Woodford|VA": {
+"lat": 38.1131886,
+"lon": -77.4088708,
+"name": "Woodford"
+},
+"Wyoming|ON": {
+"lat": 42.949297,
+"lon": -82.1187333,
+"name": "Wyoming"
+},
+"Yorkton|SK": {
+"lat": 51.212045,
+"lon": -102.461243,
+"name": "Yorkton"
+},
+"Youngstown|FL": {
+"lat": 30.3643628,
+"lon": -85.4382568,
+"name": "Youngstown"
+}
+}

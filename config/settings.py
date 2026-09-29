@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "stations",
 ]
 
 MIDDLEWARE = [
@@ -77,3 +78,21 @@ LANGUAGE_CODE = "en-us"
 TIME_ZONE = "UTC"
 USE_TZ = True
 STATIC_URL = "static/"
+
+# Vehicle and planning defaults. The assessment fixes range and mpg; every value below can be
+# overridden per request except the price strategy, which is applied when stations are loaded.
+FUEL = {
+    "RANGE_MILES": 500.0,
+    "MPG": 10.0,
+    "PRICE_STRATEGY": os.environ.get("FUEL_PRICE_STRATEGY", "median"),
+    "INCLUDE_CANADA": env_bool("FUEL_INCLUDE_CANADA", True),
+    # Stations are placed at their city centroid, so a truck stop on the highway can read a
+    # few miles from the route. Inside FREE_OFFSET_MILES a station counts as on the route;
+    # beyond it, the round trip (inflated by CIRCUITY for real roads) is priced as fuel.
+    "MAX_OFFSET_MILES": 10.0,
+    "FREE_OFFSET_MILES": 4.0,
+    "CIRCUITY": 1.3,
+    # Dollars charged per stop for the driver's time, only to choose between plans. Without
+    # it the cheapest plan stops whenever a station is a cent cheaper, and buys 1 gallon.
+    "STOP_PENALTY_USD": 10.0,
+}
